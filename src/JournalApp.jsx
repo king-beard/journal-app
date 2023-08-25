@@ -1,10 +1,10 @@
-import { Fragment } from "react"
 import { AppRoute } from "./router/AppRoute"
+import { AppTheme } from "./theme"
 
 export const JournalApp = () => {
   return (
-    <Fragment>
+    <AppTheme>
       <AppRoute />
-    </Fragment>
+    </AppTheme>
   )
 }
